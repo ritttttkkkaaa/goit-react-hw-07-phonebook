@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import ContactItem from './ContactItem';
-import { getIsLoading, getContactsList, getError } from 'redux/contactsReducer';
+import { getContactsList } from 'redux/contactsReducer';
 import { useDispatch, useSelector } from 'react-redux';
 import { getFilter } from 'redux/filtersSlice';
 import { fetchContacts } from 'redux/contacts.operations';
